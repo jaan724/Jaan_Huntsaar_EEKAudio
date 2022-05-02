@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6217880e2037214a91d92bf8d3dc8914
     GuidInternal: 
-    m_lastTime: -8585519069054894448
+    m_lastTime: -8585501127466393682
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
     GuidInternal: 
-    m_lastTime: -8585506135062914299
+    m_lastTime: -8585501127466938082
     List:
     - name: CaveReverb
       guid: e1e6b5dbecc31e4b80a6d3b4d9efc165
@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cd4a6721a693ed4382e34f20bf0d65e6
     GuidInternal: 
-    m_lastTime: -8585506128822121117
+    m_lastTime: -8585501127466433576
     List:
     - name: Music
       guid: 18618433eb301f49ba516b900b7b3237
@@ -162,7 +162,7 @@ MonoBehaviour:
     ParentPath: Events\Ambience
     guid: d2ced58090a83945ae65d1fa261578a0
     GuidInternal: 
-    m_lastTime: -8585506133413861259
+    m_lastTime: -8585501127467063978
     List:
     - name: CaveReverb_Disable
       guid: 127438b137014843ba74549a18f48604
@@ -232,7 +232,7 @@ MonoBehaviour:
     ParentPath: Events\Control
     guid: 9eb86487acbeb14b8d7b846d143e520d
     GuidInternal: 
-    m_lastTime: -8585519069055881487
+    m_lastTime: -8585501127467057170
     List:
     - name: Scene_Change
       guid: 487ac7076141334793741e25b5b1642d
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1d50cb0bda87914f8a3aa7fefa9d0a8d
     GuidInternal: 
-    m_lastTime: -8585519069055876542
+    m_lastTime: -8585501127467052136
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -275,7 +275,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 24f83e979b92a2468d7881b31c0bdfac
     GuidInternal: 
-    m_lastTime: -8585519069055866622
+    m_lastTime: -8585501127467052136
     List:
     - name: Music
       guid: eedf99a3aa2e3d4aa209a7ad7aae02b5
@@ -340,7 +340,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: dbd5f847746f0c4b859d698a15e4a228
     GuidInternal: 
-    m_lastTime: -8585506133413761501
+    m_lastTime: -8585501127467046268
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -354,7 +354,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b1df90538825d94992b10500ae6d6911
     GuidInternal: 
-    m_lastTime: -8585506135062385705
+    m_lastTime: -8585501127466423602
     List:
     - name: CaveReverb
       guid: 46c8f76292ea2c469f4e7b3474524fde
@@ -433,7 +433,7 @@ MonoBehaviour:
     ParentPath: States\Music
     guid: de4658d6312446499099365c761abc67
     GuidInternal: 
-    m_lastTime: -8585506221953117771
+    m_lastTime: -8585501127466413629
     List:
     - name: Music
       guid: ecb57b5c0a57514d9486ce2b6ff7dec1
@@ -611,7 +611,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 928a633f4187a14aa380324137b6ca3f
     GuidInternal: 
-    m_lastTime: -8585506135062505380
+    m_lastTime: -8585501127466413629
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -625,10 +625,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 523643f2ef2d7143ae60717c4f9ee6b7
     GuidInternal: 
-    m_lastTime: -8585519069054919260
+    m_lastTime: -8585501127466413629
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
