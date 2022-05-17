@@ -38,28 +38,8 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
     GuidInternal: 
-    m_lastTime: -8585493437643529347
+    m_lastTime: -8585488138424908747
     List:
-    - name: Ambience
-      guid: 627f4459bdcb534bbe0107606d997c92
-      id: 85412153
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: SFX
-        ObjectType: 2
-        guid: 867e80eba2c830488a3a1d1031be0961
-      - ElementName: Ambience
-        ObjectType: 2
-        guid: 627f4459bdcb534bbe0107606d997c92
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Ambience
     - name: CaveReverb
       guid: e1e6b5dbecc31e4b80a6d3b4d9efc165
       id: 1697398818
@@ -182,7 +162,7 @@ MonoBehaviour:
     ParentPath: Events\Ambience
     guid: d2ced58090a83945ae65d1fa261578a0
     GuidInternal: 
-    m_lastTime: -8585488966365187330
+    m_lastTime: -8585488173801395097
     List:
     - name: 2D
       guid: 2209ec804aea284b975181dfbd1f7c59
@@ -256,6 +236,26 @@ MonoBehaviour:
         guid: 8f3667e29b694a48b963b8a62572a726
       Path: Events\Ambience\3D\Amb_BoilingWater
       maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Cave
+      guid: d2fad049a4684d49a1e6d383e8142fa4
+      id: 3755979049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: 3D
+        ObjectType: 4
+        guid: 9161611405784d46aed5e0dd532d368e
+      - ElementName: Amb_Cave
+        ObjectType: 3
+        guid: d2fad049a4684d49a1e6d383e8142fa4
+      Path: Events\Ambience\3D\Amb_Cave
+      maxAttenuation: 70
       maxDuration: -1
       minDuration: -1
     - name: Amb_Field_Farms
@@ -336,8 +336,28 @@ MonoBehaviour:
         guid: 7583abad5931db44bd5a8f9e24ca352e
       Path: Events\Ambience\3D\Amb_Ocean
       maxAttenuation: 70
-      maxDuration: 10.700227
-      minDuration: 10.700227
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Trees
+      guid: bf9bc6561d990c49af9626c0d70de377
+      id: 2644861617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: 3D
+        ObjectType: 4
+        guid: 9161611405784d46aed5e0dd532d368e
+      - ElementName: Amb_Trees
+        ObjectType: 3
+        guid: bf9bc6561d990c49af9626c0d70de377
+      Path: Events\Ambience\3D\Amb_Trees
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: CaveReverb_Disable
       guid: 127438b137014843ba74549a18f48604
       id: 1879932703
@@ -412,9 +432,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8750786a6e3e2c4c8b15d15a06909851
       Path: Events\Ambience\3D\Torch
-      maxAttenuation: 70
-      maxDuration: 4.938911
-      minDuration: 4.938911
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Control.wwu
     PathAndIcons:
     - ElementName: Events
@@ -469,7 +489,7 @@ MonoBehaviour:
     ParentPath: Events\Monsters
     guid: 4e0212baf929f341a9e9bd12e041a40d
     GuidInternal: 
-    m_lastTime: -8585488960716320362
+    m_lastTime: -8585488218598744142
     List:
     - name: Critter_Plant_Attack
       guid: a8792ec254944544a52071bbfafda3e2
@@ -488,7 +508,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a8792ec254944544a52071bbfafda3e2
       Path: Events\Monsters\Plant\Critter_Plant_Attack
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.49619
       minDuration: 0.49619
     - name: Critter_Plant_Death
@@ -508,7 +528,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e690cdf905e10c428c9ecc79c79449eb
       Path: Events\Monsters\Plant\Critter_Plant_Death
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 1.475057
       minDuration: 1.475057
     - name: Critter_Plant_GettingHit
@@ -528,7 +548,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2b33d23c14441d48865863177ceca9d7
       Path: Events\Monsters\Plant\Critter_Plant_GettingHit
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.800771
       minDuration: 0.800771
     - name: Critter_Plant_Idle
@@ -548,7 +568,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: afd68362d8ef4344993f0af73ff4fd58
       Path: Events\Monsters\Plant\Critter_Plant_Idle
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 3.873061
       minDuration: 3.873061
     - name: Plant
@@ -643,7 +663,7 @@ MonoBehaviour:
     ParentPath: Events\NPC
     guid: be0f6533dbcc2b4a946723e1912095b9
     GuidInternal: 
-    m_lastTime: -8585488966365586265
+    m_lastTime: -8585488218598664369
     List:
     - name: Hare
       guid: 12609a0ef62fca4baece8b2b267ea31d
@@ -679,7 +699,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dfd41e36a8c0774183e9402f307274bd
       Path: Events\NPC\Hare\NPC_Hare_Song_Long
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 15.859405
       minDuration: 15.859405
     - name: NPC_Hare_Talk
@@ -699,7 +719,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 50e9229188f47140aa4ce7dddd0527fe
       Path: Events\NPC\Hare\NPC_Hare_Talk
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 5.141701
       minDuration: 5.141701
     - name: NPC_Phoenix_Flap
@@ -719,7 +739,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5d83d185038b7543954761c0b09723c0
       Path: Events\NPC\Phoenix\NPC_Phoenix_Flap
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.478662
       minDuration: 0.478662
     - name: NPC_Phoenix_Nibble
@@ -739,7 +759,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 618d39b20906ba43bb1b529d8a997b7d
       Path: Events\NPC\Phoenix\NPC_Phoenix_Nibble
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 1.29034
       minDuration: 1.29034
     - name: NPC_Phoenix_Sneeze
@@ -759,7 +779,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 48a6c2fd93df2c429621d0d7cd33d59e
       Path: Events\NPC\Phoenix\NPC_Phoenix_Sneeze
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.604036
       minDuration: 0.604036
     - name: Other
@@ -813,7 +833,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9f49490726d241488dc650108e8215f2
       Path: Events\NPC\Other\Townsfolk_Female_Footsteps
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.88449
       minDuration: 0.88449
     - name: Townsfolk_Female_Talk
@@ -833,7 +853,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 35dbf6ad3dc3ca49a7ecc44b6357b7d3
       Path: Events\NPC\Other\Townsfolk_Female_Talk
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 5.190151
       minDuration: 5.190151
     - name: Townsfolk_Male_Footsteps
@@ -853,7 +873,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ee2ae9958a734548b02d57c3229f3153
       Path: Events\NPC\Other\Townsfolk_Male_Footsteps
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 0.604036
       minDuration: 0.604036
     - name: Townsfolk_Male_Talk
@@ -873,7 +893,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ec7dc3a301a5b04b9697f0128cc5a882
       Path: Events\NPC\Other\Townsfolk_Male_Talk
-      maxAttenuation: 0
+      maxAttenuation: 35
       maxDuration: 6.152109
       minDuration: 6.152109
   - PhysicalPath: Events\Player.wwu
@@ -887,7 +907,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: 200965919f7b864b8c1941a7423ceca5
     GuidInternal: 
-    m_lastTime: -8585488966365117261
+    m_lastTime: -8585488218598813976
     List:
     - name: Footsteps
       guid: ebea9308f93a4b4c86b6a1a1689fb6b8
@@ -920,9 +940,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6d8fae6e256e144696838339dc9d6e9a
       Path: Events\Player\Player_Attack
-      maxAttenuation: 0
-      maxDuration: 0.845215
-      minDuration: 0.845215
+      maxAttenuation: 100
+      maxDuration: 0.291247
+      minDuration: 0.291247
     - name: Player_Die
       guid: 3c8be577ce0bb14ab4719d3d5040ab98
       id: 1542330065
@@ -937,7 +957,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3c8be577ce0bb14ab4719d3d5040ab98
       Path: Events\Player\Player_Die
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.641361
       minDuration: 2.641361
     - name: Player_Footsteps
@@ -957,9 +977,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: a37d968de7738341b5d6a8bf5b4ae442
       Path: Events\Player\Footsteps\Player_Footsteps
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 100
+      maxDuration: 2.139162
+      minDuration: 0.399819
     - name: Player_GetHit
       guid: 517325965869ec46a85d7f2427c59487
       id: 3945457670
@@ -974,7 +994,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 517325965869ec46a85d7f2427c59487
       Path: Events\Player\Player_GetHit
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.799388
       minDuration: 1.799388
     - name: Player_Grab
@@ -991,7 +1011,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3208be0e063a9f4080ba53acd0675536
       Path: Events\Player\Player_Grab
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.203333
       minDuration: 2.203333
     - name: Player_Heartbeat
@@ -1008,9 +1028,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 00561da3513c264dae71dda8525aac10
       Path: Events\Player\Player_Heartbeat
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 100
+      maxDuration: 1.218866
+      minDuration: 1.218866
     - name: Player_Jump_Landing
       guid: d5f3e8bdf85a7247856c41520e04254d
       id: 3856109001
@@ -1025,7 +1045,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d5f3e8bdf85a7247856c41520e04254d
       Path: Events\Player\Player_Jump_Landing
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.558866
       minDuration: 0.558866
     - name: Player_Jump_LiftOff
@@ -1042,7 +1062,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 18359568e274ee4884b615d3328f7a29
       Path: Events\Player\Player_Jump_LiftOff
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.406508
       minDuration: 0.406508
     - name: Player_Talk
@@ -1059,7 +1079,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 01fde23b6f9bbc41a957980bb43e5aa1
       Path: Events\Player\Player_Talk
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 6.730793
       minDuration: 6.730793
     - name: Player_Water_Splash
@@ -1076,9 +1096,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1f47ff0b7ef79d4490f906472b025396
       Path: Events\Player\Player_Water_Splash
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 100
+      maxDuration: 2.45932
+      minDuration: 2.45932
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1172,7 +1192,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: dbd5f847746f0c4b859d698a15e4a228
     GuidInternal: 
-    m_lastTime: -8585493464659664759
+    m_lastTime: -8585488176685225783
     List:
     - name: Controls
       guid: d2df573b274b5640ae73f921725f5c72
@@ -1188,6 +1208,20 @@ MonoBehaviour:
         ObjectType: 4
         guid: d2df573b274b5640ae73f921725f5c72
       Path: Game Parameters\Default Work Unit\Controls
+    - name: Health
+      guid: fbcf34321c9b0e4184b1bb401648a9f0
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dbd5f847746f0c4b859d698a15e4a228
+      - ElementName: Health
+        ObjectType: 13
+        guid: fbcf34321c9b0e4184b1bb401648a9f0
+      Path: Game Parameters\Default Work Unit\Health
     - name: MasterVolume
       guid: 240ca8ea6991334298be3cbd0544a070
       id: 2918011349
@@ -1673,7 +1707,7 @@ MonoBehaviour:
     m_lastTime: -8585501127466413629
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 2e0000002f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

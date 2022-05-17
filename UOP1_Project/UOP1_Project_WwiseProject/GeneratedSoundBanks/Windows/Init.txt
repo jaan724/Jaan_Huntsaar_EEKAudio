@@ -23,6 +23,7 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	244829540	Underwater_On	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
 	712694220	CaveReverb_Enabled	CaveReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb		
+	789353298	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
 	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

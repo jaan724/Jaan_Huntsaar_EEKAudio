@@ -130,8 +130,19 @@
 									<StateGroupInfo>
 										<StateGroupRef Name="Underwater" ID="{6E06F9D1-2CB5-4991-8AAD-02FDEA5A6BFB}"/>
 									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}"/>
+									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+										<CustomState Name="" ID="{2F9B2505-8F7A-4304-92DF-326970B3B4B5}" ShortID="789353298">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
 									<CustomState>
 										<StateRef Name="Underwater_On" ID="{534E73CE-1BA4-46A7-A098-6CEA807A3A8A}"/>
 										<CustomState Name="" ID="{AC38CE6A-2D27-4F29-8B0F-2E93CFD42CFA}" ShortID="244829540">
@@ -139,6 +150,10 @@
 												<Property Name="Lowpass" Type="int16" Value="51"/>
 											</PropertyList>
 										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+										<CustomState Name="" ID="{0789E346-632F-4133-A8A2-E28121D16639}" ShortID="477605820"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Underwater_Off" ID="{536C162C-2C80-4FEC-94CB-CAFCF3DE133A}"/>

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="1698734712">
+		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="3897645048">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>

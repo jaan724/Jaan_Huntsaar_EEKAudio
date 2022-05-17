@@ -418,7 +418,6 @@
 						</Sound>
 						<Sound Name="Talk" ID="{8EDC5D22-FEC1-4A28-A774-995FC43946AD}" ShortID="1028146020">
 							<PropertyList>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
