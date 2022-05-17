@@ -8,19 +8,31 @@
 		<ExternalSourcesOutputRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3572356540">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3718657759">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="1697398818" Name="CaveReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb" GUID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\Controls\SFXVolume" GUID="{818CEA33-3B17-40A1-BA6D-BFC3DDA4DBCA}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\Controls\MusicVolume" GUID="{6E06A930-444F-4124-AC80-A28AE9E834EB}"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\Controls\MasterVolume" GUID="{EAA80C24-9169-4233-98BE-3CBD0544A070}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1697398818" Name="CaveReverb" ObjectPath="\States\Default Work Unit\CaveReverb" GUID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CaveReverb\None" GUID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
 						<State Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 						<State Id="2218728873" Name="CaveReverb_Disabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2213237662" Name="Underwater" ObjectPath="\States\Default Work Unit\Underwater" GUID="{6E06F9D1-2CB5-4991-8AAD-02FDEA5A6BFB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Underwater\None" GUID="{8D4F23FB-7035-4361-AFC1-BB5A6BB69DC7}"/>
+						<State Id="2294733406" Name="Underwater_On" ObjectPath="\States\Default Work Unit\Underwater\Underwater_On" GUID="{534E73CE-1BA4-46A7-A098-6CEA807A3A8A}"/>
+						<State Id="2802431236" Name="Underwater_Off" ObjectPath="\States\Default Work Unit\Underwater\Underwater_Off" GUID="{536C162C-2C80-4FEC-94CB-CAFCF3DE133A}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Music\Pause" GUID="{5D3C779C-8130-47C3-BFED-1E0641098106}">

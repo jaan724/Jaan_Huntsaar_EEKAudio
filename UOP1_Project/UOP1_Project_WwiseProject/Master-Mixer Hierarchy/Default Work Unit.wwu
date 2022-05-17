@@ -4,6 +4,36 @@
 		<WorkUnit Name="Default Work Unit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{4DC23BB5-D26D-4A3D-8246-0E2AD865FD50}" ShortID="578375751">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MasterVolume" ID="{EAA80C24-9169-4233-98BE-3CBD0544A070}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DAB86189-E729-43C1-8078-9216C4D7D3C5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{284EB990-BA97-4BA8-B7AD-4DFDD3E38878}" WorkUnitID="{67BFBC61-61D5-43FF-B13C-C22A4E01DB9A}"/>
@@ -12,10 +42,31 @@
 					<ChildrenList>
 						<Bus Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
+								<Property Name="Volume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{40322AF0-88DA-4B33-AB91-0182A1FDACA1}" ShortID="755290534">
-											<ReferenceList/>
+										<RTPC Name="" ID="{593BFD12-E20E-4D35-A6B9-41C231E1747B}" ShortID="631373289">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{818CEA33-3B17-40A1-BA6D-BFC3DDA4DBCA}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DFE2C048-AFEC-4BB3-A6D2-59133C028647}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
 										</RTPC>
 									</RTPCList>
 								</Property>
@@ -73,36 +124,61 @@
 									</StateInfo>
 									<ObjectLists/>
 								</AuxBus>
-								<Bus Name="Ambience" ID="{59447F62-CBBD-4B53-BE01-07606D997C92}">
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
-												<CustomState Name="" ID="{AD59C8B3-1299-4307-9C30-E83B4BB7A39F}" ShortID="909056564">
-													<PropertyList>
-														<Property Name="BusVolume" Type="Real64" Value="-108"/>
-														<Property Name="Highpass" Type="int16" Value="-41"/>
-														<Property Name="Lowpass" Type="int16" Value="39"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
-												<CustomState Name="" ID="{1F0B7A8A-B68A-484D-8390-05D7CB97C1A4}" ShortID="595133990"/>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ObjectLists/>
-								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{6E06F9D1-2CB5-4991-8AAD-02FDEA5A6BFB}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Underwater_On" ID="{534E73CE-1BA4-46A7-A098-6CEA807A3A8A}"/>
+										<CustomState Name="" ID="{AC38CE6A-2D27-4F29-8B0F-2E93CFD42CFA}" ShortID="244829540">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="51"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Underwater_Off" ID="{536C162C-2C80-4FEC-94CB-CAFCF3DE133A}"/>
+										<CustomState Name="" ID="{9783F77F-AFDC-4300-9B51-7B147065AE27}" ShortID="401392964"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music" ID="{5506F693-7D0C-43BF-806E-633BE5569559}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8F6034C4-58B6-4B93-9410-6D67A65DA176}" ShortID="813281253">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{6E06A930-444F-4124-AC80-A28AE9E834EB}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D7A6E344-74A6-40FE-866B-09452BEB6627}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>

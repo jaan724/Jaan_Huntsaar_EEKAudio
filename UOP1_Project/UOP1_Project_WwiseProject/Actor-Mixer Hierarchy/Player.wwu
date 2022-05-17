@@ -8,16 +8,29 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Player" ID="{0100A8A3-135F-463A-AE5B-3C19A980BE95}" ShortID="142938041">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Player" ID="{5CE74D58-ACED-44CA-8F55-70C6FF7BADD5}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+							<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="Player Footsteps" ID="{35E2DE49-B8EE-40A3-A8DD-C114120B6E7E}" ShortID="252841280">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -34,6 +47,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Footsteps Grass" ID="{23226D7C-3120-4161-A63F-B36A95815802}" ShortID="591462023">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A1C54B01-D1A7-4C4D-BFEE-48CF66E3B5CA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="606"/>
+															<Property Name="Min" Type="Real64" Value="-404"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -70,6 +98,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps Water" ID="{0DAF6F25-F66E-4E93-A573-9193E8E45753}" ShortID="731222495">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6B8A238E-9C96-49EF-A85F-8587DA6D0512}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="328"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -121,6 +164,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps Sand" ID="{2179793E-1C74-440F-BDE1-B718FF1D3F03}" ShortID="99237664">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{05B9CD3D-4EC8-4A2E-8656-0C741ED4E8E3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="505"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -157,6 +215,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps Stone" ID="{4965C3BD-049A-43D0-BE2C-98F2C87A9B2E}" ShortID="938599090">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E7E4BFEA-84F0-4E5F-A243-3DDF89E1BE88}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="733"/>
+															<Property Name="Min" Type="Real64" Value="-581"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -209,14 +282,93 @@
 										<ItemRef Name="Footsteps Stone" ID="{4965C3BD-049A-43D0-BE2C-98F2C87A9B2E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Surface_Sand" ID="{9910D849-E2DB-4542-AA92-A01F4DB0FB7A}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps Sand" ID="{2179793E-1C74-440F-BDE1-B718FF1D3F03}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Grass" ID="{135D997C-EC30-487B-9AA9-AEB8A465F515}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps Grass" ID="{23226D7C-3120-4161-A63F-B36A95815802}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Water" ID="{78E2F8B8-226C-448D-A62F-3670DDF73BE0}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps Water" ID="{0DAF6F25-F66E-4E93-A573-9193E8E45753}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Stone" ID="{DF67D7F3-3B73-4A4D-B024-2D68F477DF46}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps Stone" ID="{4965C3BD-049A-43D0-BE2C-98F2C87A9B2E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="Heartbeat" ID="{D83A9264-A62C-459C-A511-77F2C7F59F90}" ShortID="65407017">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{7AC86CB4-CC41-4A31-AA99-C48FA2A01BCA}" ShortID="1047062829">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Health" ID="{3234CFFB-9B1C-410E-84B1-BB401648A9F0}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1F457F87-09BC-4E80-A58F-96307327D3D3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.0528</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10.05988</XPos>
+														<YPos>-0.02784</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>14.91018</XPos>
+														<YPos>-6.32677</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.02993</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -265,6 +417,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Talk" ID="{8EDC5D22-FEC1-4A28-A774-995FC43946AD}" ShortID="1028146020">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -412,6 +577,7 @@
 						<Sound Name="Watersplash" ID="{EC42114A-AF63-4000-AFAA-F4E5249F308C}" ShortID="204818133">
 							<PropertyList>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
@@ -421,6 +587,11 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -434,6 +605,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Player_Watersplash_01" ID="{70C78008-A72C-4830-8054-4DDEB823ECAD}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00353858953653405"/>
+										<Property Name="FadeInShape" Type="int16" Value="4"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.45931972789116"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Player\Player_Watersplash_01.wav</AudioFile>
 									<MediaIDList>

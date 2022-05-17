@@ -130,6 +130,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Amb_Cave" ID="{49D0FAD2-68A4-494D-A1E6-D383E8142FA4}">
+							<ChildrenList>
+								<Action Name="" ID="{C4010669-716E-49FC-A57D-B9F6F3E41F7D}" ShortID="767583205">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave" ID="{5E93D479-08C5-4DF1-923B-29D2D9F14215}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Trees" ID="{56C69BBF-991D-490C-AF96-26C0D70DE377}">
+							<ChildrenList>
+								<Action Name="" ID="{3773AC6C-C27E-48C5-9C6E-47A13BC04256}" ShortID="993834225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest" ID="{81D760A5-9D4A-46C4-B138-06597B2B3537}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
