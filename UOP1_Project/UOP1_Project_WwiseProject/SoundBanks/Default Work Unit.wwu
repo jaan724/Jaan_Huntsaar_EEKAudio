@@ -5,7 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Monsters" ID="{BA12024E-29F9-41F3-A9E9-BD12E041A40D}" WorkUnitID="{BA12024E-29F9-41F3-A9E9-BD12E041A40D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{366223D1-A5F8-4825-81E2-3504AC677742}" WorkUnitID="{366223D1-A5F8-4825-81E2-3504AC677742}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC" ID="{33650FBE-CCDB-4A2B-9467-23E1912095B9}" WorkUnitID="{33650FBE-CCDB-4A2B-9467-23E1912095B9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{91650920-7B9F-4B86-8C19-41A7423CECA5}" WorkUnitID="{91650920-7B9F-4B86-8C19-41A7423CECA5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

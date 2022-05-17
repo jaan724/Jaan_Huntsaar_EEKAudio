@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Monsters" ID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Plant" ID="{45752EBA-F1A3-49F9-9112-006E3543E369}" ShortID="588728188">
+					<ChildrenList>
+						<Sound Name="Idle" ID="{9410679B-C829-4570-B178-B351C15D8F83}" ShortID="201773318">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Idle_01" ID="{741057B5-7D87-48C9-874F-73A1E50132F6}">
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Plant\Critter_Plant_Idle_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481946088"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Idle_01" ID="{741057B5-7D87-48C9-874F-73A1E50132F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Attack" ID="{4BAFB15A-265B-4998-84E2-3BC8208BB9C1}" ShortID="776234498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Attack_01" ID="{5533DA91-DDB0-4698-8242-312577397DF1}">
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Plant\Critter_Plant_Attack_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="257465358"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Attack_01" ID="{5533DA91-DDB0-4698-8242-312577397DF1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GettingHit" ID="{8C68AB6F-137E-47FB-AA94-4BEB6C3F811E}" ShortID="193517867">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_GettingHit_01" ID="{04ACA413-ABAA-4D20-B852-D4554974CEF7}">
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Plant\Critter_Plant_GettingHit_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="119134841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_GettingHit_01" ID="{04ACA413-ABAA-4D20-B852-D4554974CEF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death" ID="{FF65D17B-0C6D-438B-BBE4-F6863B389181}" ShortID="1035466605">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Death_01" ID="{65D382B8-3FC9-45E8-8A69-33B365AD33F7}">
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Plant\Critter_Plant_Death_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561154678"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Death_01" ID="{65D382B8-3FC9-45E8-8A69-33B365AD33F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -11,6 +11,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{40322AF0-88DA-4B33-AB91-0182A1FDACA1}" ShortID="755290534">
+											<ReferenceList/>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="CaveReverb" ID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
@@ -64,6 +73,32 @@
 									</StateInfo>
 									<ObjectLists/>
 								</AuxBus>
+								<Bus Name="Ambience" ID="{59447F62-CBBD-4B53-BE01-07606D997C92}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+												<CustomState Name="" ID="{AD59C8B3-1299-4307-9C30-E83B4BB7A39F}" ShortID="909056564">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Highpass" Type="int16" Value="-41"/>
+														<Property Name="Lowpass" Type="int16" Value="39"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+												<CustomState Name="" ID="{1F0B7A8A-B68A-484D-8390-05D7CB97C1A4}" ShortID="595133990"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>

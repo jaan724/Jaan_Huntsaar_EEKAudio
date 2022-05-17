@@ -3,3 +3,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
 	3991942870	Music			\Music\Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	153099171	Music_Forest	C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music\Music_Forest_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Forest\Music_Forest\Music_Forest		4785395
+	301712534	Music_MainTheme	C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music\Music_MainTheme_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_MainTheme\Music_MainTheme\Music_MainTheme		4021296
+	697483307	Music_Beach	C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music\Music_Beach_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Beach\Music_Beach\Music_Beach		2987157
+	723553692	Music_Glade	C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music\Music_Glade_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Glade\Music_Glade		2603101
+

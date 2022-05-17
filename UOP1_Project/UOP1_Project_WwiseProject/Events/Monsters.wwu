@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA12024E-29F9-41F3-A9E9-BD12E041A40D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Monsters" ID="{BA12024E-29F9-41F3-A9E9-BD12E041A40D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Plant" ID="{5DF62869-44AB-4772-8D47-81E8E9827155}" ShortID="265660769">
+					<ChildrenList>
+						<Event Name="Critter_Plant_Idle" ID="{6283D6AF-EFD8-4443-993F-0AF73FF4FD58}">
+							<ChildrenList>
+								<Action Name="" ID="{9E3D7E29-CB18-438D-B32C-24AAC16F59F2}" ShortID="424136677">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle" ID="{9410679B-C829-4570-B178-B351C15D8F83}" WorkUnitID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Attack" ID="{C22E79A8-9454-4445-A520-71BBFAFDA3E2}">
+							<ChildrenList>
+								<Action Name="" ID="{A0FBA772-AF72-4451-A0B2-3709FB09D3DF}" ShortID="403977386">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{4BAFB15A-265B-4998-84E2-3BC8208BB9C1}" WorkUnitID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_GettingHit" ID="{3CD2332B-4414-481D-8658-63177CECA9D7}">
+							<ChildrenList>
+								<Action Name="" ID="{4140488C-EE4D-4211-B69D-47527B9BDAFB}" ShortID="252292092">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GettingHit" ID="{8C68AB6F-137E-47FB-AA94-4BEB6C3F811E}" WorkUnitID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Death" ID="{F9CD90E6-E105-420C-8C9E-CC79C79449EB}">
+							<ChildrenList>
+								<Action Name="" ID="{0E85685A-58FB-4683-A023-F855991429E6}" ShortID="806237876">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{FF65D17B-0C6D-438B-BBE4-F6863B389181}" WorkUnitID="{51E1CA1F-133A-4A6F-B013-78BF1B65D0B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

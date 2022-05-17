@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Jaan ValJaan\\Documents\\Jaan_Huntsaar_EEKAudio\\Jaan_Huntsaar_EEKAudio\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Jaan ValJaan\\Documents\\Jaan_Huntsaar_EEKAudio\\Jaan_Huntsaar_EEKAudio\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Jaan ValJaan\\Documents\\Jaan_Huntsaar_EEKAudio\\Jaan_Huntsaar_EEKAudio\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Jaan ValJaan\\Documents\\Jaan_Huntsaar_EEKAudio\\Jaan_Huntsaar_EEKAudio\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3991942870",
     "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
     "Language": "SFX",
-    "Hash": "3470493165",
+    "Hash": "3698323176",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -26,9 +26,67 @@
       "Name": "Music",
       "ObjectPath": "\\Events\\Music\\Music",
       "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "153099171",
+        "Language": "SFX",
+        "ShortName": "Music\\Music_Forest.wav",
+        "Path": "SFX\\Music\\Music_Forest_3D1D1BA5.wem"
+       },
+       {
+        "Id": "301712534",
+        "Language": "SFX",
+        "ShortName": "Music\\Music_MainTheme.wav",
+        "Path": "SFX\\Music\\Music_MainTheme_3D1D1BA5.wem"
+       },
+       {
+        "Id": "697483307",
+        "Language": "SFX",
+        "ShortName": "Music\\Music_Beach.wav",
+        "Path": "SFX\\Music\\Music_Beach_3D1D1BA5.wem"
+       },
+       {
+        "Id": "723553692",
+        "Language": "SFX",
+        "ShortName": "Music\\Music_Glade.wav",
+        "Path": "SFX\\Music\\Music_Glade_3D1D1BA5.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{8953B072-E2E1-4E95-9860-F0243B381C1D}",
+        "Media": [
+         {
+          "Id": "697483307"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}",
+        "Media": [
+         {
+          "Id": "301712534"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{05D86287-310D-46C5-BB86-57F2984684F4}",
+        "Media": [
+         {
+          "Id": "153099171"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{75BD13A5-6921-48F5-8E93-26E02C10B70E}",
+        "Media": [
+         {
+          "Id": "723553692"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "2179654399",
@@ -81,6 +139,44 @@
       "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
       "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}",
       "States": []
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Music\\Music",
+      "GUID": "{5C7BB5EC-570A-4D51-9486-CE2B6FF7DEC1}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Music\\None",
+        "GUID": "{E9CB0504-2C7B-4260-A5B9-A2BEE640FBE0}"
+       },
+       {
+        "Id": "3954391251",
+        "Name": "Mus_Field_Hill",
+        "ObjectPath": "\\States\\Music\\Music\\Mus_Field_Hill",
+        "GUID": "{05D86287-310D-46C5-BB86-57F2984684F4}"
+       },
+       {
+        "Id": "1874745927",
+        "Name": "Mus_MainMenu",
+        "ObjectPath": "\\States\\Music\\Music\\Mus_MainMenu",
+        "GUID": "{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"
+       },
+       {
+        "Id": "430932854",
+        "Name": "Mus_Beach",
+        "ObjectPath": "\\States\\Music\\Music\\Mus_Beach",
+        "GUID": "{8953B072-E2E1-4E95-9860-F0243B381C1D}"
+       },
+       {
+        "Id": "4139276889",
+        "Name": "Mus_Field_Farms",
+        "ObjectPath": "\\States\\Music\\Music\\Mus_Field_Farms",
+        "GUID": "{75BD13A5-6921-48F5-8E93-26E02C10B70E}"
+       }
+      ]
      }
     ]
    }

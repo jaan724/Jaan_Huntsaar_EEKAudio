@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6514C38-40CB-401F-90B3-69EBF37CF854}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="NPC" ID="{C6514C38-40CB-401F-90B3-69EBF37CF854}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Hare" ID="{05891E9B-3A4E-4DCC-9241-75B0CF42958C}" ShortID="979424963">
+					<ChildrenList>
+						<Sound Name="Hare Talk" ID="{78B4C64B-08C1-4151-B88F-3951A4DFEB20}" ShortID="910735841">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NPC_Hare_Talk_01" ID="{922AD0F7-7E55-4033-AC32-A8E4F8513710}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\Hare\NPC_Hare_Talk_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="669186837"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NPC_Hare_Talk_01" ID="{922AD0F7-7E55-4033-AC32-A8E4F8513710}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hare Song" ID="{09B283A2-B5A7-4D64-AEFE-035FA6289BF7}" ShortID="572418547">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NPC_Hare_Song_Long_01" ID="{6AA0EA8C-BA6D-4794-9D16-38C6DC71A01B}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\Hare\NPC_Hare_Song_Long_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="270957944"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NPC_Hare_Song_Long_01" ID="{6AA0EA8C-BA6D-4794-9D16-38C6DC71A01B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Phoenix" ID="{E76C204B-53FE-47FA-B01E-A480E5016BFE}" ShortID="921019570">
+					<ChildrenList>
+						<Sound Name="Sneeze" ID="{C1030C1E-DC16-47E8-98B8-B5A8E1F25CCF}" ShortID="201216259">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NPC_Phoenix_Sneeze_01" ID="{1030D0A1-C25E-441E-8EC6-F51BB38E8574}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\Phoenix\NPC_Phoenix_Sneeze_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="498407483"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NPC_Phoenix_Sneeze_01" ID="{1030D0A1-C25E-441E-8EC6-F51BB38E8574}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nibble" ID="{4C50EDEA-1C3F-48D6-B931-24A528E71FC7}" ShortID="917724798">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NPC_Phoenix_Nibble_01" ID="{AC3336E7-5F39-4FB0-B6E3-EDDBA58F3371}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\Phoenix\NPC_Phoenix_Nibble_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="951881289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NPC_Phoenix_Nibble_01" ID="{AC3336E7-5F39-4FB0-B6E3-EDDBA58F3371}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flap" ID="{90183A5B-9D70-4D37-834F-A0DBAD63628A}" ShortID="16751785">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NPC_Phoenix_Flap_01" ID="{6414D12A-7F70-413F-AF23-FB7F41B67111}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\Phoenix\NPC_Phoenix_Flap_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50829514"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NPC_Phoenix_Flap_01" ID="{6414D12A-7F70-413F-AF23-FB7F41B67111}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Other" ID="{366025F2-29AA-4C96-93C9-D9D225A147CA}" ShortID="541025128">
+					<ChildrenList>
+						<Sound Name="Female Footstep" ID="{163ADF2D-9371-482E-AA41-1D3E6D3D5EFB}" ShortID="713997956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Townsfolk_Female_Footsteps_01" ID="{BF0BC3C2-18EF-492B-B440-AC912A430A48}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\OtherNPC\Townsfolk_Female_Footsteps_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273260499"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Townsfolk_Female_Footsteps_01" ID="{BF0BC3C2-18EF-492B-B440-AC912A430A48}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Male Footstep" ID="{FEA2B1DF-5FE1-4326-94A3-993AA1728989}" ShortID="978423457">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Townsfolk_Male_Footsteps_01" ID="{8139E8CE-1241-4F45-908C-45A089381345}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\OtherNPC\Townsfolk_Male_Footsteps_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311401"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Townsfolk_Male_Footsteps_01" ID="{8139E8CE-1241-4F45-908C-45A089381345}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Female Talk" ID="{670D785F-9DEA-4AF6-96F6-22DAB38BDF0A}" ShortID="6193164">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>450</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Townsfolk_Female_Talk_01" ID="{E62FE9EF-C643-43B4-8BCA-4BEE6384B1CA}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\OtherNPC\Townsfolk_Female_Talk_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="132642805"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Townsfolk_Female_Talk_01" ID="{E62FE9EF-C643-43B4-8BCA-4BEE6384B1CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Male Talk" ID="{8D635616-4ABA-44B3-9EFB-E61BA6245E74}" ShortID="954735466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Townsfolk_Male_Talk_01" ID="{A138F2D8-449F-4359-A295-101CEDC1498E}">
+									<Language>SFX</Language>
+									<AudioFile>NPC\OtherNPC\Townsfolk_Male_Talk_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584838245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Townsfolk_Male_Talk_01" ID="{A138F2D8-449F-4359-A295-101CEDC1498E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33650FBE-CCDB-4A2B-9467-23E1912095B9}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPC" ID="{33650FBE-CCDB-4A2B-9467-23E1912095B9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Hare" ID="{0E9A6012-2FF6-4BCA-AECE-8B2B267EA31D}" ShortID="100950942">
+					<ChildrenList>
+						<Event Name="NPC_Hare_Song_Long" ID="{361ED4DF-C0A8-4177-83E9-402F307274BD}">
+							<ChildrenList>
+								<Action Name="" ID="{6874084E-3BB6-4A7A-8385-7FDA1E671DC2}" ShortID="910432304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hare Song" ID="{09B283A2-B5A7-4D64-AEFE-035FA6289BF7}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NPC_Hare_Talk" ID="{9122E950-F488-4071-AA4C-E7DDDD0527FE}">
+							<ChildrenList>
+								<Action Name="" ID="{C02454F5-87D2-4AC7-8BAB-DDA391259E50}" ShortID="314922973">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hare Talk" ID="{78B4C64B-08C1-4151-B88F-3951A4DFEB20}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Other" ID="{3A88A5D5-7E3C-424E-88D9-DEFC5FCB743A}" ShortID="832559433">
+					<ChildrenList>
+						<Event Name="Townsfolk_Female_Footsteps" ID="{0749499F-D226-4841-8DC6-50108E8215F2}">
+							<ChildrenList>
+								<Action Name="" ID="{219C707B-E10C-4D67-88CF-B21C4BFC0155}" ShortID="109469734">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Female Footstep" ID="{163ADF2D-9371-482E-AA41-1D3E6D3D5EFB}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Townsfolk_Male_Footsteps" ID="{95E92AEE-738A-4845-B02D-57C3229F3153}">
+							<ChildrenList>
+								<Action Name="" ID="{84F0AC43-FC02-40FB-92A5-8704C5313B73}" ShortID="515396560">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Male Footstep" ID="{FEA2B1DF-5FE1-4326-94A3-993AA1728989}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Townsfolk_Female_Talk" ID="{ADF6DB35-C33D-49CA-A7EC-C44B6357B7D3}">
+							<ChildrenList>
+								<Action Name="" ID="{27EE0861-944D-4CA3-B23A-0D14C0AAB909}" ShortID="121699820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Female Talk" ID="{670D785F-9DEA-4AF6-96F6-22DAB38BDF0A}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Townsfolk_Male_Talk" ID="{A3C37DEC-A501-4BB0-9697-F0128CC5A882}">
+							<ChildrenList>
+								<Action Name="" ID="{89A522B6-E989-43CF-BF71-CC2A6BEEA894}" ShortID="235430811">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Male Talk" ID="{8D635616-4ABA-44B3-9EFB-E61BA6245E74}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Phoenix" ID="{2DA86913-105B-45E3-9FE0-4DBA8EE19631}" ShortID="497423482">
+					<ChildrenList>
+						<Event Name="NPC_Phoenix_Sneeze" ID="{FDC2A648-DF93-422C-9621-D0D7CD33D59E}">
+							<ChildrenList>
+								<Action Name="" ID="{F7D8F93C-DB7B-4271-B45D-08AFDA5F5C44}" ShortID="809062625">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sneeze" ID="{C1030C1E-DC16-47E8-98B8-B5A8E1F25CCF}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NPC_Phoenix_Nibble" ID="{B2398D61-0609-43BA-BB1B-529D8A997B7D}">
+							<ChildrenList>
+								<Action Name="" ID="{56C2A4DA-9DCC-48CF-80EF-48A81024C824}" ShortID="40334266">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Nibble" ID="{4C50EDEA-1C3F-48D6-B931-24A528E71FC7}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NPC_Phoenix_Flap" ID="{85D1835D-8B03-4375-9547-61C0B09723C0}">
+							<ChildrenList>
+								<Action Name="" ID="{405D6364-7850-4351-B017-6CA692BDC482}" ShortID="986207613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flap" ID="{90183A5B-9D70-4D37-834F-A0DBAD63628A}" WorkUnitID="{C6514C38-40CB-401F-90B3-69EBF37CF854}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

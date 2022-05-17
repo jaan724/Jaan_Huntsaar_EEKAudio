@@ -2,8 +2,16 @@
 <WwiseDocument Type="WorkUnit" ID="{71382C3E-18D5-4729-A163-E8640C051828}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Ambience" ID="{71382C3E-18D5-4729-A163-E8640C051828}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<ActorMixer Name="Main" ID="{B44AABB1-4D62-46DC-8B27-1C9BEEBE0A8D}" ShortID="126059074">
+				<ActorMixer Name="2D" ID="{B44AABB1-4D62-46DC-8B27-1C9BEEBE0A8D}" ShortID="126059074">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -15,7 +23,9 @@
 					<ChildrenList>
 						<Sound Name="Beach" ID="{2669FD5F-2501-41C8-9E8D-517CA4C12048}" ShortID="477851786">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -25,11 +35,25 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Beach_01" ID="{B31472E7-5AE1-42E0-947C-D3EE41A1B9C4}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Beach_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="121338691"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
 							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Beach_01" ID="{B31472E7-5AE1-42E0-947C-D3EE41A1B9C4}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Town" ID="{47486E53-6953-42D0-9512-E04EAE8AE9C5}" ShortID="53650331">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -39,11 +63,25 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Field_Farms_01" ID="{F7ED900A-DEE7-4B4E-AF97-F4252BD6D7A5}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Field_Farms_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="942157409"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
 							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Field_Farms_01" ID="{F7ED900A-DEE7-4B4E-AF97-F4252BD6D7A5}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Forest" ID="{81D760A5-9D4A-46C4-B138-06597B2B3537}" ShortID="17412807">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -53,10 +91,24 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Trees_01" ID="{F884F15A-5389-4898-8DAE-6705A4A090C3}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Trees_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="666277722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
 							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Trees_01" ID="{F884F15A-5389-4898-8DAE-6705A4A090C3}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Hills" ID="{340F1310-32E5-46F6-88AA-146C8AC1E74E}" ShortID="90156752">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -101,7 +153,19 @@
 											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Field_Hill_01" ID="{AF9E4F0E-0DE3-468F-89D0-280FB32CDFA2}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Amb_Field_Hill_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="159523286"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Field_Hill_01" ID="{AF9E4F0E-0DE3-468F-89D0-280FB32CDFA2}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<StateInfo>
@@ -127,6 +191,175 @@
 							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="3D" ID="{B6198355-56CC-48C2-B0F8-80D77935146E}" ShortID="810371889">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="static_amb" ID="{D728035B-32D0-4BE3-BB6E-FDA3BD89CFC8}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Seashore" ID="{53AD8F4F-AB2F-4881-BB22-8F899E442410}" ShortID="572197138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Ocean_01" ID="{129CE295-DDF0-4284-A2E9-81E7078D96C3}" ShortID="363336477">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Ocean_01" ID="{6B09312C-3091-43CE-9715-EBC7D5328BF7}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Amb_Ocean_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771454610"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Ocean_01" ID="{6B09312C-3091-43CE-9715-EBC7D5328BF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<Sound Name="Fire" ID="{07744B85-3E07-489F-81E1-7CE86CD6D617}" ShortID="540340038">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Fire_01" ID="{4E093B02-07F6-4D01-AD86-6501771599BF}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Fire_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859539125"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Fire_01" ID="{4E093B02-07F6-4D01-AD86-6501771599BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boiling Water" ID="{ECECAB9B-9883-4FBF-9B84-C79B7CC63215}" ShortID="916884369">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_BoilingWater_01" ID="{BDD18956-F9DC-4059-B25F-3ED8925424FD}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_BoilingWater_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="419381891"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_BoilingWater_01" ID="{BDD18956-F9DC-4059-B25F-3ED8925424FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Torch" ID="{89A71F43-5F05-4FE0-985F-44A3BA529800}" ShortID="923017546">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Torch_01" ID="{789DC755-3B58-4759-8934-22712393E011}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Torch_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="43797452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Torch_01" ID="{789DC755-3B58-4759-8934-22712393E011}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cave" ID="{5E93D479-08C5-4DF1-923B-29D2D9F14215}" ShortID="58638317">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="static_amb" ID="{D728035B-32D0-4BE3-BB6E-FDA3BD89CFC8}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Cave_01" ID="{41A8375D-610D-4893-9067-0F8B7A1B1E15}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_Cave_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="547096157"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Cave_01" ID="{41A8375D-610D-4893-9067-0F8B7A1B1E15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

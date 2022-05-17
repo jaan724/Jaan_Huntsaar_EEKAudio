@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+	2213237662	Underwater			\Default Work Unit\Underwater	
 	3092587493	Pause			\Music\Pause	
 	3991942870	Music			\Music\Music	
 
@@ -7,6 +8,9 @@ State	ID	Name	State Group			Notes
 	717767040	CaveReverb_Enabled	CaveReverb			
 	748895195	None	CaveReverb			
 	2218728873	CaveReverb_Disabled	CaveReverb			
+	748895195	None	Underwater			
+	2294733406	Underwater_On	Underwater			
+	2802431236	Underwater_Off	Underwater			
 	748895195	None	Pause			
 	3537680115	Pause_On	Pause			
 	3967028551	Pause_Off	Pause			
@@ -19,8 +23,10 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	712694220	CaveReverb_Enabled	CaveReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb		
 	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	909056564	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Ambience		
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	

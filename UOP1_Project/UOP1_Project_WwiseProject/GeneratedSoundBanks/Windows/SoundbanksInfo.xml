@@ -1,21 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Jaan ValJaan\Documents\Jaan_Huntsaar_EEKAudio\Jaan_Huntsaar_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="2194326956">
+		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="3171864741">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3072576347" Name="AddToInventory" ObjectPath="\Events\UI\AddToInventory" GUID="{AE936466-15D7-4638-86EA-66CBB62225BA}" DurationType="OneShot" DurationMin="1.294376" DurationMax="1.294376">
+					<IncludedMemoryFiles>
+						<File Id="62091336" Language="SFX">
+							<ShortName>UI\UI_AddToInventory_01.wav</ShortName>
+							<Path>SFX\UI\UI_AddToInventory_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="859052727" Name="Amb_Beach" ObjectPath="\Events\Ambience\2D\Amb_Beach" GUID="{99EA8F08-CC2B-449A-A8F6-2805AE86D965}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="121338691" Language="SFX">
+							<ShortName>Ambience\Amb_Beach_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Beach_01_3D1D1BA5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1824690809" Name="Amb_BoilingWater" ObjectPath="\Events\Ambience\3D\Amb_BoilingWater" GUID="{E267368F-699B-484A-B963-B8A62572A726}" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="419381891" Language="SFX">
+							<ShortName>Ambience\Amb_BoilingWater_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_BoilingWater_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="728646680" Name="Amb_Field_Farms" ObjectPath="\Events\Ambience\2D\Amb_Field_Farms" GUID="{46BF5649-7A3F-4E68-A5A0-588E2BB12BB8}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="942157409" Language="SFX">
+							<ShortName>Ambience\Amb_Field_Farms_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Field_Farms_01_3D1D1BA5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1997053204" Name="Amb_Field_Hill" ObjectPath="\Events\Ambience\2D\Amb_Field_Hill" GUID="{7723A756-EF29-459D-9609-AD2F6FC42FB6}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="159523286" Language="SFX">
+							<ShortName>Ambience\Amb_Field_Hill_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Field_Hill_01_3D1D1BA5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3207324726" Name="Amb_Fire" ObjectPath="\Events\Ambience\3D\Amb_Fire" GUID="{DC71C511-E0D1-4C8F-B8EE-B61F9FAA54DE}" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="859539125" Language="SFX">
+							<ShortName>Ambience\Amb_Fire_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Fire_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3635877684" Name="Amb_Ocean" ObjectPath="\Events\Ambience\3D\Amb_Ocean" GUID="{ADAB8375-3159-44DB-BD5A-8F9E24CA352E}" MaxAttenuation="70." DurationType="OneShot" DurationMin="10.700227" DurationMax="10.700227">
+					<IncludedMemoryFiles>
+						<File Id="771454610" Language="SFX">
+							<ShortName>Ambience\Amb_Ocean_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Ocean_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1879932703" Name="CaveReverb_Disable" ObjectPath="\Events\Ambience\Reverb\CaveReverb_Disable" GUID="{B1387412-0137-4348-BA74-549A18F48604}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="2218728873" Name="CaveReverb_Disabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
@@ -26,7 +82,216 @@
 						<ActionSetStateEntry Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="1969612259" Name="Critter_Plant_Attack" ObjectPath="\Events\Monsters\Plant\Critter_Plant_Attack" GUID="{C22E79A8-9454-4445-A520-71BBFAFDA3E2}" DurationType="OneShot" DurationMin="0.49619" DurationMax="0.49619">
+					<IncludedMemoryFiles>
+						<File Id="257465358" Language="SFX">
+							<ShortName>Monsters\Plant\Critter_Plant_Attack_01.wav</ShortName>
+							<Path>SFX\Monsters\Plant\Critter_Plant_Attack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2910694179" Name="Critter_Plant_Death" ObjectPath="\Events\Monsters\Plant\Critter_Plant_Death" GUID="{F9CD90E6-E105-420C-8C9E-CC79C79449EB}" DurationType="OneShot" DurationMin="1.475057" DurationMax="1.475057">
+					<IncludedMemoryFiles>
+						<File Id="561154678" Language="SFX">
+							<ShortName>Monsters\Plant\Critter_Plant_Death_01.wav</ShortName>
+							<Path>SFX\Monsters\Plant\Critter_Plant_Death_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1822764980" Name="Critter_Plant_GettingHit" ObjectPath="\Events\Monsters\Plant\Critter_Plant_GettingHit" GUID="{3CD2332B-4414-481D-8658-63177CECA9D7}" DurationType="OneShot" DurationMin="0.800771" DurationMax="0.800771">
+					<IncludedMemoryFiles>
+						<File Id="119134841" Language="SFX">
+							<ShortName>Monsters\Plant\Critter_Plant_GettingHit_01.wav</ShortName>
+							<Path>SFX\Monsters\Plant\Critter_Plant_GettingHit_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2891098061" Name="Critter_Plant_Idle" ObjectPath="\Events\Monsters\Plant\Critter_Plant_Idle" GUID="{6283D6AF-EFD8-4443-993F-0AF73FF4FD58}" DurationType="OneShot" DurationMin="3.873061" DurationMax="3.873061">
+					<IncludedMemoryFiles>
+						<File Id="481946088" Language="SFX">
+							<ShortName>Monsters\Plant\Critter_Plant_Idle_01.wav</ShortName>
+							<Path>SFX\Monsters\Plant\Critter_Plant_Idle_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1717767246" Name="NPC_Hare_Song_Long" ObjectPath="\Events\NPC\Hare\NPC_Hare_Song_Long" GUID="{361ED4DF-C0A8-4177-83E9-402F307274BD}" DurationType="OneShot" DurationMin="15.859405" DurationMax="15.859405">
+					<IncludedMemoryFiles>
+						<File Id="270957944" Language="SFX">
+							<ShortName>NPC\Hare\NPC_Hare_Song_Long_01.wav</ShortName>
+							<Path>SFX\NPC\Hare\NPC_Hare_Song_Long_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1419286180" Name="NPC_Hare_Talk" ObjectPath="\Events\NPC\Hare\NPC_Hare_Talk" GUID="{9122E950-F488-4071-AA4C-E7DDDD0527FE}" DurationType="OneShot" DurationMin="5.141701" DurationMax="5.141701">
+					<IncludedMemoryFiles>
+						<File Id="669186837" Language="SFX">
+							<ShortName>NPC\Hare\NPC_Hare_Talk_01.wav</ShortName>
+							<Path>SFX\NPC\Hare\NPC_Hare_Talk_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4270597360" Name="NPC_Phoenix_Flap" ObjectPath="\Events\NPC\Phoenix\NPC_Phoenix_Flap" GUID="{85D1835D-8B03-4375-9547-61C0B09723C0}" DurationType="OneShot" DurationMin="0.478662" DurationMax="0.478662">
+					<IncludedMemoryFiles>
+						<File Id="50829514" Language="SFX">
+							<ShortName>NPC\Phoenix\NPC_Phoenix_Flap_01.wav</ShortName>
+							<Path>SFX\NPC\Phoenix\NPC_Phoenix_Flap_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1870809083" Name="NPC_Phoenix_Nibble" ObjectPath="\Events\NPC\Phoenix\NPC_Phoenix_Nibble" GUID="{B2398D61-0609-43BA-BB1B-529D8A997B7D}" DurationType="OneShot" DurationMin="1.29034" DurationMax="1.29034">
+					<IncludedMemoryFiles>
+						<File Id="951881289" Language="SFX">
+							<ShortName>NPC\Phoenix\NPC_Phoenix_Nibble_01.wav</ShortName>
+							<Path>SFX\NPC\Phoenix\NPC_Phoenix_Nibble_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3034451483" Name="NPC_Phoenix_Sneeze" ObjectPath="\Events\NPC\Phoenix\NPC_Phoenix_Sneeze" GUID="{FDC2A648-DF93-422C-9621-D0D7CD33D59E}" DurationType="OneShot" DurationMin="0.604036" DurationMax="0.604036">
+					<IncludedMemoryFiles>
+						<File Id="498407483" Language="SFX">
+							<ShortName>NPC\Phoenix\NPC_Phoenix_Sneeze_01.wav</ShortName>
+							<Path>SFX\NPC\Phoenix\NPC_Phoenix_Sneeze_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2824512041" Name="Player_Attack" ObjectPath="\Events\Player\Player_Attack" GUID="{6EAE8F6D-6E25-4614-9683-8339DC9D6E9A}" DurationType="OneShot" DurationMin="0.291247" DurationMax="0.291247">
+					<IncludedMemoryFiles>
+						<File Id="642125237" Language="SFX">
+							<ShortName>Player\Player_Attack_01.wav</ShortName>
+							<Path>SFX\Player\Player_Attack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1542330065" Name="Player_Die" ObjectPath="\Events\Player\Player_Die" GUID="{77E58B3C-0BCE-4AB1-B471-9D3D5040AB98}" DurationType="OneShot" DurationMin="2.641361" DurationMax="2.641361">
+					<IncludedMemoryFiles>
+						<File Id="847530862" Language="SFX">
+							<ShortName>Player\Player_Die_01.wav</ShortName>
+							<Path>SFX\Player\Player_Die_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Player\Footsteps\Player_Footsteps" GUID="{8D967DA3-73E7-4183-B5D6-A8BF5B4AE442}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3945457670" Name="Player_GetHit" ObjectPath="\Events\Player\Player_GetHit" GUID="{96257351-6958-46EC-A85D-7F2427C59487}" DurationType="OneShot" DurationMin="1.799388" DurationMax="1.799388">
+					<IncludedMemoryFiles>
+						<File Id="608220378" Language="SFX">
+							<ShortName>Player\Player_GetHit_01.wav</ShortName>
+							<Path>SFX\Player\Player_GetHit_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="816303795" Name="Player_Grab" ObjectPath="\Events\Player\Player_Grab" GUID="{0EBE0832-3A06-409F-80BA-53ACD0675536}" DurationType="OneShot" DurationMin="2.203333" DurationMax="2.203333">
+					<IncludedMemoryFiles>
+						<File Id="999988864" Language="SFX">
+							<ShortName>Player\Player_Grab_01.wav</ShortName>
+							<Path>SFX\Player\Player_Grab_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3484321931" Name="Player_Heartbeat" ObjectPath="\Events\Player\Player_Heartbeat" GUID="{A31D5600-3C51-4D26-AE71-DDA8525AAC10}" DurationType="OneShot" DurationMin="1.218866" DurationMax="1.218866">
+					<IncludedMemoryFiles>
+						<File Id="855610135" Language="SFX">
+							<ShortName>Player\Player_Heartbeat_01.wav</ShortName>
+							<Path>SFX\Player\Player_Heartbeat_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3856109001" Name="Player_Jump_Landing" ObjectPath="\Events\Player\Player_Jump_Landing" GUID="{BDE8F3D5-5AF8-4772-856C-41520E04254D}" DurationType="OneShot" DurationMin="0.558866" DurationMax="0.558866">
+					<IncludedMemoryFiles>
+						<File Id="941075345" Language="SFX">
+							<ShortName>Player\Player_Jump_Landing_01.wav</ShortName>
+							<Path>SFX\Player\Player_Jump_Landing_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1363577934" Name="Player_Jump_LiftOff" ObjectPath="\Events\Player\Player_Jump_LiftOff" GUID="{68953518-74E2-48EE-84B6-15D3328F7A29}" DurationType="OneShot" DurationMin="0.406508" DurationMax="0.406508">
+					<IncludedMemoryFiles>
+						<File Id="441681315" Language="SFX">
+							<ShortName>Player\Player_Jump_LiftOff_01.wav</ShortName>
+							<Path>SFX\Player\Player_Jump_LiftOff_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2675089675" Name="Player_Talk" ObjectPath="\Events\Player\Player_Talk" GUID="{3BE2FD01-9B6F-41BC-A957-980BB43E5AA1}" DurationType="OneShot" DurationMin="6.730793" DurationMax="6.730793">
+					<IncludedMemoryFiles>
+						<File Id="788366168" Language="SFX">
+							<ShortName>Player\Player_Talk_01.wav</ShortName>
+							<Path>SFX\Player\Player_Talk_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2060690880" Name="Player_Water_Splash" ObjectPath="\Events\Player\Player_Water_Splash" GUID="{0BFF471F-F77E-449D-90F9-06472B025396}" DurationType="OneShot" DurationMin="2.45932" DurationMax="2.45932">
+					<IncludedMemoryFiles>
+						<File Id="60235086" Language="SFX">
+							<ShortName>Player\Player_Watersplash_01.wav</ShortName>
+							<Path>SFX\Player\Player_Watersplash_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3170972326" Name="Scene_Change" ObjectPath="\Events\Control\Scene_Change" GUID="{07C77A48-4161-4733-9374-1E25B5B1642D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1904864137" Name="Torch" ObjectPath="\Events\Ambience\3D\Torch" GUID="{6A785087-3E6E-4C2C-8B15-D15A06909851}" MaxAttenuation="70." DurationType="OneShot" DurationMin="4.938911" DurationMax="4.938911">
+					<IncludedMemoryFiles>
+						<File Id="43797452" Language="SFX">
+							<ShortName>Ambience\Amb_Torch_01.wav</ShortName>
+							<Path>SFX\Ambience\Amb_Torch_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1299172729" Name="Townsfolk_Female_Footsteps" ObjectPath="\Events\NPC\Other\Townsfolk_Female_Footsteps" GUID="{0749499F-D226-4841-8DC6-50108E8215F2}" DurationType="OneShot" DurationMin="0.88449" DurationMax="0.88449">
+					<IncludedMemoryFiles>
+						<File Id="273260499" Language="SFX">
+							<ShortName>NPC\OtherNPC\Townsfolk_Female_Footsteps_01.wav</ShortName>
+							<Path>SFX\NPC\OtherNPC\Townsfolk_Female_Footsteps_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2971175702" Name="Townsfolk_Female_Talk" ObjectPath="\Events\NPC\Other\Townsfolk_Female_Talk" GUID="{ADF6DB35-C33D-49CA-A7EC-C44B6357B7D3}" DurationType="OneShot" DurationMin="5.190151" DurationMax="5.190151">
+					<IncludedMemoryFiles>
+						<File Id="132642805" Language="SFX">
+							<ShortName>NPC\OtherNPC\Townsfolk_Female_Talk_01.wav</ShortName>
+							<Path>SFX\NPC\OtherNPC\Townsfolk_Female_Talk_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3008108842" Name="Townsfolk_Male_Footsteps" ObjectPath="\Events\NPC\Other\Townsfolk_Male_Footsteps" GUID="{95E92AEE-738A-4845-B02D-57C3229F3153}" DurationType="OneShot" DurationMin="0.604036" DurationMax="0.604036">
+					<IncludedMemoryFiles>
+						<File Id="311401" Language="SFX">
+							<ShortName>NPC\OtherNPC\Townsfolk_Male_Footsteps_01.wav</ShortName>
+							<Path>SFX\NPC\OtherNPC\Townsfolk_Male_Footsteps_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="660562971" Name="Townsfolk_Male_Talk" ObjectPath="\Events\NPC\Other\Townsfolk_Male_Talk" GUID="{A3C37DEC-A501-4BB0-9697-F0128CC5A882}" DurationType="OneShot" DurationMin="6.152109" DurationMax="6.152109">
+					<IncludedMemoryFiles>
+						<File Id="584838245" Language="SFX">
+							<ShortName>NPC\OtherNPC\Townsfolk_Male_Talk_01.wav</ShortName>
+							<Path>SFX\NPC\OtherNPC\Townsfolk_Male_Talk_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\UI\UI_Click" GUID="{2BAFD5F1-F32A-4E3C-8F54-BDE426286EBC}" DurationType="OneShot" DurationMin="0.396327" DurationMax="0.396327">
+					<IncludedMemoryFiles>
+						<File Id="491995518" Language="SFX">
+							<ShortName>UI\UI_Click_01.wav</ShortName>
+							<Path>SFX\UI\UI_Click_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="592624029" Name="UI_Shuffle" ObjectPath="\Events\UI\UI_Shuffle" GUID="{350FF601-9067-4612-8EFD-ACFF140BF27F}" DurationType="OneShot" DurationMin="0.550113" DurationMax="0.550113">
+					<IncludedMemoryFiles>
+						<File Id="932696127" Language="SFX">
+							<ShortName>UI\UI_Shuffle_01.wav</ShortName>
+							<Path>SFX\UI\UI_Shuffle_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3210856931" Name="UI_Use" ObjectPath="\Events\UI\UI_Use" GUID="{E5333B87-D4C5-42D5-8A9F-4BB9DEC39183}" DurationType="OneShot" DurationMin="1.436349" DurationMax="1.436349">
+					<IncludedMemoryFiles>
+						<File Id="288568489" Language="SFX">
+							<ShortName>UI\UI_Use_01.wav</ShortName>
+							<Path>SFX\UI\UI_Use_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}">
@@ -36,8 +301,18 @@
 					<States/>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{08A3DE8F-189B-477B-BDDB-1AAA2A666149}">
+					<Switches>
+						<Switch Id="547160665" Name="Surface_Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Grass" GUID="{135D997C-EC30-487B-9AA9-AEB8A465F515}"/>
+						<Switch Id="1897702823" Name="Surface_Sand" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Sand" GUID="{9910D849-E2DB-4542-AA92-A01F4DB0FB7A}"/>
+						<Switch Id="1810448540" Name="Surface_Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Stone" GUID="{DF67D7F3-3B73-4A4D-B024-2D68F477DF46}"/>
+						<Switch Id="3248230778" Name="Surface_Water" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Water" GUID="{78E2F8B8-226C-448D-A62F-3670DDF73BE0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1019858265">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3572356540">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -61,12 +336,53 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="3470493165">
+		<SoundBank Id="3991942870" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="3698323176">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="153099171" Language="SFX">
+							<ShortName>Music\Music_Forest.wav</ShortName>
+							<Path>SFX\Music\Music_Forest_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="301712534" Language="SFX">
+							<ShortName>Music\Music_MainTheme.wav</ShortName>
+							<Path>SFX\Music\Music_MainTheme_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="697483307" Language="SFX">
+							<ShortName>Music\Music_Beach.wav</ShortName>
+							<Path>SFX\Music\Music_Beach_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="723553692" Language="SFX">
+							<ShortName>Music\Music_Glade.wav</ShortName>
+							<Path>SFX\Music\Music_Glade_3D1D1BA5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8953B072-E2E1-4E95-9860-F0243B381C1D}">
+							<Media>
+								<File Id="697483307"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}">
+							<Media>
+								<File Id="301712534"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{05D86287-310D-46C5-BB86-57F2984684F4}">
+							<Media>
+								<File Id="153099171"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{75BD13A5-6921-48F5-8E93-26E02C10B70E}">
+							<Media>
+								<File Id="723553692"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2179654399" Name="Pause_Menu_Off" ObjectPath="\Events\Music\Pause_Menu_Off" GUID="{08DFDC1B-8276-411D-A16D-09B36D0FE31D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="3967028551" Name="Pause_Off" ObjectPath="\States\Music\Pause\Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
@@ -84,6 +400,15 @@
 				</StateGroup>
 				<StateGroup Id="3967028551" Name="Pause_Off" ObjectPath="\States\Music\Pause\Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}">
 					<States/>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Music\Music" GUID="{5C7BB5EC-570A-4D51-9486-CE2B6FF7DEC1}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Music\Music\None" GUID="{E9CB0504-2C7B-4260-A5B9-A2BEE640FBE0}"/>
+						<State Id="3954391251" Name="Mus_Field_Hill" ObjectPath="\States\Music\Music\Mus_Field_Hill" GUID="{05D86287-310D-46C5-BB86-57F2984684F4}"/>
+						<State Id="1874745927" Name="Mus_MainMenu" ObjectPath="\States\Music\Music\Mus_MainMenu" GUID="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"/>
+						<State Id="430932854" Name="Mus_Beach" ObjectPath="\States\Music\Music\Mus_Beach" GUID="{8953B072-E2E1-4E95-9860-F0243B381C1D}"/>
+						<State Id="4139276889" Name="Mus_Field_Farms" ObjectPath="\States\Music\Music\Mus_Field_Farms" GUID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
